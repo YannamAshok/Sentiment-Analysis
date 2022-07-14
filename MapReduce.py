@@ -45,6 +45,7 @@ class MapReduceReviews(MRJob):
                    combiner=self.combiner_count_words,
                    reducer=self.reducer_count_words)
             ]
+            #this is a comment
 
 if __name__ == '__main__':
     MapReduceReviews.run()
